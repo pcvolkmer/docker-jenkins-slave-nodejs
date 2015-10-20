@@ -1,5 +1,5 @@
 # This Dockerfile is used to build an image containing an nodejs 4.0 jenkins slave
-FROM node:4.0
+FROM node:4.2
 MAINTAINER Paul-Christian Volkmer <mail@pcvolkmer.de>
 
 # Update packages
