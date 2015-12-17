@@ -12,5 +12,5 @@ There is no need to start this image by your self. If you want to do so, use:
 
 # Packages installed
 
-Based on official [Node Docker image](https://registry.hub.docker.com/_/node/), this image contains OpenJDK 7 (to run Jenkins slave), Git, OpenSSH packages
+Based on official [Node Docker image](https://registry.hub.docker.com/_/node/), this image contains OpenJDK 8 (to run Jenkins slave), Git, OpenSSH packages
 and a user named "jenkins" with password "jenkins".
