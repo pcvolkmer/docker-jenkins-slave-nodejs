@@ -2,10 +2,10 @@
 
 - [`4.2`, `4.2` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/4.2/Dockerfile)
 - [`4.4`, `4.4` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/4.4/Dockerfile)
-- [`5.11`, `5.11` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/5.11/Dockerfile)
-- [`6.0`, `6.0` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/6.0/Dockerfile)
+- [`5.12`, `5.12` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/5.12/Dockerfile)
+- [`6.3`, `6.3` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/6.3/Dockerfile)
 
-[![](https://badge.imagelayers.io/pcvolkmer/jenkins-slave-nodejs:6.0.svg)](https://imagelayers.io/?images=pcvolkmer/jenkins-slave-nodejs:6.0 'Get your own badge on imagelayers.io')
+[![](https://badge.imagelayers.io/pcvolkmer/jenkins-slave-nodejs:6.3.svg)](https://imagelayers.io/?images=pcvolkmer/jenkins-slave-nodejs:6.3 'Get your own badge on imagelayers.io')
 
 
 # Introduction
