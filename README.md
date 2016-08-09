@@ -5,7 +5,7 @@
 - [`5.12`, `5.12` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/5.12/Dockerfile)
 - [`6.3`, `6.3` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/6.3/Dockerfile)
 
-[![](https://badge.imagelayers.io/pcvolkmer/jenkins-slave-nodejs:6.3.svg)](https://imagelayers.io/?images=pcvolkmer/jenkins-slave-nodejs:6.3 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/pcvolkmer/jenkins-slave-nodejs.svg)](http://microbadger.com/images/pcvolkmer/jenkins-slave-nodejs "Get your own image badge on microbadger.com")
 
 
 # Introduction
