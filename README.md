@@ -1,9 +1,8 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`4.2`, `4.2` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/4.2/Dockerfile)
-- [`4.4`, `4.4` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/4.4/Dockerfile)
+- [`4.5`, `4.5` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/4.5/Dockerfile)
 - [`5.12`, `5.12` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/5.12/Dockerfile)
-- [`6.3`, `6.3` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/6.3/Dockerfile)
+- [`6.4`, `6.4` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/6.3/Dockerfile)
 
 [![](https://images.microbadger.com/badges/image/pcvolkmer/jenkins-slave-nodejs.svg)](http://microbadger.com/images/pcvolkmer/jenkins-slave-nodejs "Get your own image badge on microbadger.com")
 

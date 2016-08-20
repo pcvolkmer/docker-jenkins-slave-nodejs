@@ -1,6 +1,6 @@
-# This Dockerfile is used to build an image containing an Node.js 4.2 jenkins slave
+# This Dockerfile is used to build an image containing an Node.js 4.4 jenkins slave
 
-FROM node:4.2
+FROM node:4.5
 MAINTAINER Paul-Christian Volkmer <mail@pcvolkmer.de>
 
 # Add backports
