@@ -1,6 +1,6 @@
 # This Dockerfile is used to build an image containing an node jenkins slave
 
-FROM node:7.0
+FROM node:7.2
 MAINTAINER Paul-Christian Volkmer <mail@pcvolkmer.de>
 
 # Add backports
