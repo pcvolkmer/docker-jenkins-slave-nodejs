@@ -2,7 +2,7 @@
 
 - [`4.7`, `4.7` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/4.7/Dockerfile)
 - [`6.9`, `6.9` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/6.9/Dockerfile)
-- [`7.2`, `7.2` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/7.2/Dockerfile)
+- [`7.3`, `7.3` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/7.3/Dockerfile)
 
 [![](https://images.microbadger.com/badges/image/pcvolkmer/jenkins-slave-nodejs.svg)](http://microbadger.com/images/pcvolkmer/jenkins-slave-nodejs "Get your own image badge on microbadger.com")
 
