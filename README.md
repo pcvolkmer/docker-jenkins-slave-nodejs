@@ -1,8 +1,8 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`4.7`, `4.7` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/4.7/Dockerfile)
-- [`6.9`, `6.9` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/6.9/Dockerfile)
-- [`7.5`, `7.5` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/7.5/Dockerfile)
+- [`4.8`, `4.8` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/4.8/Dockerfile)
+- [`6.10`, `6.10` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/6.10/Dockerfile)
+- [`7.7`, `7.7` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/7.5/Dockerfile)
 
 [![](https://images.microbadger.com/badges/image/pcvolkmer/jenkins-slave-nodejs.svg)](http://microbadger.com/images/pcvolkmer/jenkins-slave-nodejs "Get your own image badge on microbadger.com")
 
@@ -27,7 +27,7 @@ This image can be used within [GitLab CI](https://docs.gitlab.com/ce/ci/docker/u
 This example `.gitlab-ci.yml`-file describes a simple gradle based build:
 
     build:
-      image: pcvolkmer/jenkins-slave-nodejs:7.5
+      image: pcvolkmer/jenkins-slave-nodejs:7.7
     script:
       - ./gradlew build
     ...
