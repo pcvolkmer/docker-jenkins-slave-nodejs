@@ -1,9 +1,9 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`4.8`, `4.8` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/4.8/Dockerfile)
-- [`6.10`, `6.10` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/6.10/Dockerfile)
-- [`7.10`, `7.10` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/7.10/Dockerfile)
-- [`8.0`, `8.0` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/8.0/Dockerfile)
+- [`4.8.5`, `4.8.5` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/4.8.5/Dockerfile)
+- [`6.11.5`, `6.11.5` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/6.11.5/Dockerfile)
+- [`8.9`, `8.9` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/8.9/Dockerfile)
+- [`9.0`, `9.0` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/9.0/Dockerfile)
 
 [![](https://images.microbadger.com/badges/image/pcvolkmer/jenkins-slave-nodejs.svg)](http://microbadger.com/images/pcvolkmer/jenkins-slave-nodejs "Get your own image badge on microbadger.com")
 
@@ -28,7 +28,7 @@ This image can be used within [GitLab CI](https://docs.gitlab.com/ce/ci/docker/u
 This example `.gitlab-ci.yml`-file describes a simple gradle based build:
 
     build:
-      image: pcvolkmer/jenkins-slave-nodejs:7.10
+      image: pcvolkmer/jenkins-slave-nodejs:8.9
     script:
       - ./gradlew build
     ...
