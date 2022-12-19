@@ -1,17 +1,12 @@
-# Supported tags and respective `Dockerfile` links
+# Docker Jenkins Slave for Node.js
 
-- [`4.8.5`, `4.8.5` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/4.8.5/Dockerfile)
-- [`6.11.5`, `6.11.5` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/6.11.5/Dockerfile)
-- [`8.9`, `8.9` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/8.9/Dockerfile)
-- [`9.0`, `9.0` (*Dockerfile*)](https://github.com/pcvolkmer/docker-jenkins-slave-nodejs/blob/master/9.0/Dockerfile)
-
-[![](https://images.microbadger.com/badges/image/pcvolkmer/jenkins-slave-nodejs.svg)](http://microbadger.com/images/pcvolkmer/jenkins-slave-nodejs "Get your own image badge on microbadger.com")
-
+Simple Dockerfiles to build a Jenkins slave for Node.js
 
 # Introduction
 
-Dockerfile to build a [Jenkins](https://jenkins-ci.org)-slave container image.
-Use it with [Jenkins Docker Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin) or to create a Jenkins slave including NodeJS.
+Use it with [Jenkins Docker Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin) or to create a Jenkins slave including Node.js.
+
+Build your own images by using Dockerfile in related Node.js version folder.
 
 # How to use this image
 
@@ -28,7 +23,7 @@ This image can be used within [GitLab CI](https://docs.gitlab.com/ce/ci/docker/u
 This example `.gitlab-ci.yml`-file describes a simple gradle based build:
 
     build:
-      image: pcvolkmer/jenkins-slave-nodejs:8.9
+      image: pcvolkmer/jenkins-slave-nodejs:18
     script:
       - ./gradlew build
     ...
@@ -37,4 +32,4 @@ By replacing or adding scripts, it is possible to use *npm* and, after installin
 
 # Packages installed
 
-Based on official [Node Docker image](https://registry.hub.docker.com/_/node/), this image contains OpenJDK 8 (to run Jenkins slave), Git, OpenSSH and a user named "jenkins" with password "jenkins".
+Based on official [Node Docker image](https://registry.hub.docker.com/_/node/), this image contains OpenJDK 11 (to run Jenkins slave), Git, OpenSSH and a user named "jenkins" with password "jenkins".
