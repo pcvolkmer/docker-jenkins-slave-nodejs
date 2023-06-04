@@ -2,6 +2,10 @@
 
 FROM node:19
 
+LABEL org.opencontainers.image.source=https://github.com/pcvolkmer/docker-jenkins-slave-nodejs
+LABEL org.opencontainers.image.licenses=MIT
+LABEL org.opencontainers.image.description="Simple Dockerfiles to build a Jenkins slave for Node.js"
+
 # Add backports
 RUN echo "deb http://http.debian.net/debian bullseye-backports main" >> /etc/apt/sources.list
 
