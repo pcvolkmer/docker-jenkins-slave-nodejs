@@ -32,4 +32,4 @@ By replacing or adding scripts, it is possible to use *npm* and, after installin
 
 # Packages installed
 
-Based on official [Node Docker image](https://registry.hub.docker.com/_/node/), this image contains OpenJDK 11 (to run Jenkins slave), Git, OpenSSH and a user named "jenkins" with password "jenkins".
+Based on official [Node Docker image](https://registry.hub.docker.com/_/node/), this image contains OpenJDK 17 (to run Jenkins slave), Git, OpenSSH and a user named "jenkins" with password "jenkins".
