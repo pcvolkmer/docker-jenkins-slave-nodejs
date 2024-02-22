@@ -1,7 +1,7 @@
 #!/bin/bash
 
 IMAGE_NAME="pcvolkmer/jenkins-slave-nodejs"
-LTS_VERSION="18"
+LTS_VERSION="20"
 LATEST_VERSION="21"
 
 for version in $(find . -maxdepth 1 -mindepth 1 -type d -printf '%f\n'); do
