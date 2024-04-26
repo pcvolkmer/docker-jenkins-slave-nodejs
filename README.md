@@ -18,12 +18,12 @@ If you want to use it without Jenkins Docker Plugin create a container using:
 
 # Additional usage for GitLab CI
 
-This image can be used within [GitLab CI](https://docs.gitlab.com/ce/ci/docker/using_docker_build.html) providing OpenJDK 8 and node environment.
+This image can be used within [GitLab CI](https://docs.gitlab.com/ce/ci/docker/using_docker_build.html) providing OpenJDK 17 and node environment.
 
 This example `.gitlab-ci.yml`-file describes a simple gradle based build:
 
     build:
-      image: pcvolkmer/jenkins-slave-nodejs:18
+      image: pcvolkmer/jenkins-slave-nodejs:21
     script:
       - ./gradlew build
     ...
