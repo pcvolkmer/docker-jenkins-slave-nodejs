@@ -4,6 +4,10 @@ on:
   push:
     branches: [ 'master' ]
 
+env:
+  LTS: 18
+  LATEST: 22
+
 jobs:
   docker:
     runs-on: ubuntu-latest
@@ -28,3 +32,15 @@ jobs:
         run: |
           docker build -t ghcr.io/pcvolkmer/jenkins-slave-nodejs:${{matrix.node-version}} ${{matrix.node-version}}
           docker push ghcr.io/pcvolkmer/jenkins-slave-nodejs:${{matrix.node-version}}
+
+      - name: Tag and push 'latest'
+        if: ${{matrix.node-version == env.LATEST}}
+        run: |
+          docker tag ghcr.io/pcvolkmer/jenkins-slave-nodejs:${{matrix.node-version}} ghcr.io/pcvolkmer/jenkins-slave-nodejs:latest
+          docker push ghcr.io/pcvolkmer/jenkins-slave-nodejs:latest
+
+      - name: Tag and push 'lts'
+        if: ${{matrix.node-version == env.LTS}}
+        run: |
+          docker tag ghcr.io/pcvolkmer/jenkins-slave-nodejs:${{matrix.node-version}} ghcr.io/pcvolkmer/jenkins-slave-nodejs:lts
+          docker push ghcr.io/pcvolkmer/jenkins-slave-nodejs:lts
