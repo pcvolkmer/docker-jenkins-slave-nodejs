@@ -7,15 +7,15 @@ on:
     - cron: '0 0 * * 1'
 
 env:
-  LTS: 20
-  LATEST: 23
+  LTS: 22
+  LATEST: 24
 
 jobs:
   docker:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18, 19, 20, 21, 22, 23]
+        node-version: [18, 19, 20, 21, 22, 23, 24]
         
     steps:
       - uses: actions/checkout@v4
