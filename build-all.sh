@@ -1,8 +1,8 @@
 #!/bin/bash
 
 IMAGE_NAME="pcvolkmer/jenkins-slave-nodejs"
-LTS_VERSION="22"
-LATEST_VERSION="24"
+LTS_VERSION="24"
+LATEST_VERSION="25"
 
 for version in $(find . -maxdepth 1 -mindepth 1 -type d -printf '%f\n'); do
   if [[ "$version" =~ ^\..* ]]; then
