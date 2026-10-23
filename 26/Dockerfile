@@ -7,7 +7,7 @@ LABEL org.opencontainers.image.licenses=MIT
 LABEL org.opencontainers.image.description="NodeJS image to use with Jenkins Docker Plugin"
 
 # Upgrade and Install packages
-RUN apt-get update && apt-get -y upgrade && apt-get install -y git openssh-server openjdk-17-jdk
+RUN apt-get update && apt-get -y upgrade && apt-get install -y git openssh-server openjdk-21-jdk
 
 # Add user and group for jenkins
 RUN groupadd -g 10000 jenkins
@@ -15,7 +15,7 @@ RUN useradd -m -u 10000 -g 10000 jenkins
 RUN echo "jenkins:jenkins" | chpasswd
 
 # Prepare container for ssh
-RUN mkdir /var/run/sshd
+RUN mkdir /var/run/sshd &>/dev/null || true
 
 ENV CI=true
 EXPOSE 22

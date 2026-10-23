@@ -8,15 +8,15 @@ on:
 
 env:
   LTS: 24
-  LATEST: 25
+  LATEST: 26
 
 jobs:
   docker:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20, 22, 24, 25]
-        
+        node-version: [22, 24, 26]
+
     steps:
       - uses: actions/checkout@v4
 
