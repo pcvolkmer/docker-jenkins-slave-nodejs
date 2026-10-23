@@ -1,6 +1,6 @@
 # This Dockerfile is used to build an image containing a node jenkins slave
 
-FROM node:25
+FROM node:26
 
 LABEL org.opencontainers.image.source=https://github.com/pcvolkmer/docker-jenkins-slave-nodejs
 LABEL org.opencontainers.image.licenses=MIT
